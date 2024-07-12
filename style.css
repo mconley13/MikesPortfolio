@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: aqua;
+    color:black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(156, 153, 153);
+    padding: 10px;
+}
+a {
+    text-decoration: underline;
+    margin-right: 50px;
+    color: black;
+}
+.name {
+    font-size: 80px;
+    position: relative;
+    left: -120px;
+    top: 85px;
+}
+ul {
+    list-style-type: none;
+}
+.header nav li {
+    display: inline;
+    list-style-type: none;
+    font-size: 30px;
+    color: black;
+}
+.header nav {
+    padding-top: 125px;
+}
+aside {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    font-size: 50px;
+    position: absolute;
+    left: -10px;
+    bottom: -40px;
+}
+article {
+    max-height: 300px;
+    min-height: 75px;
+}
+.content {
+    width: 80%;
+    float: right;
+}
+aside div ul li {
+    margin-bottom: 145px;
+}
+.About-Me {
+    margin-left: 125px; 
+ 
+}
+.Work {
+    margin-left: 215px;
+    margin-bottom: 330px;
+}
+.Contact-Me {
+    margin-bottom: 0px;
+    margin-left: 90px;
+}
+.MyParagraph {
+    font-family: fantasy;
+    background-color: black;
+    color: whitesmoke;    
+    border: 2px solid #ffffff;
+    padding: 10px;
+    margin-bottom: 90px;
+    font-size: 30px;
+}
+.Websites {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links {
+    display:inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+div h1 {
+    padding-right: 150px;
+}
+div.links {
+    padding: 10px;
+}
+.first-website{
+     border: 2px solid #ffffff;
+     background-color: #fff;
+     padding: 5px;
+}
+article.Websites {
+    margin-bottom: 50px;
+}
+footer {
+    position: absolute;
+    bottom: -45px;
+    left: 335px;
+}
+.second-project {
+    border: 2px solid #ffffff;
+    background-color: #fff;
+    padding: 5px;
+}
+.third-project {
+    border: 2px solid #ffffff;
+    background-color: #fff;
+    padding: 5px;
+}
+.ComingSoon1 {
+    border-radius: 50px 50px 0px 0px;
+    padding: 15px;
+    height: 20px;
+    width: 228px;
+    align-content: center;
+    font-family: fantasy;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ComingSoon2 {
+    border-radius: 50px 50px 0px 0px;
+    padding: 15px;
+    height: 20px;
+    width: 214px;
+    align-content: center;
+    font-family: fantasy;
+    justify-content: center;
+    flex-wrap: wrap;
+    ;
+}
+.Horiseon {
+    align-content: center;
+    font-family: fantasy;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 50px 50px 0px 0px;
+    padding: 20px;
+    height: 40px;
+    width: 400px;
+}
